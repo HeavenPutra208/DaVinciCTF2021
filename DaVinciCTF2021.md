@@ -17,7 +17,7 @@ Password: ' or 1 -- -
 
 Dan berhasil. Kemudian saya melakuakn inspect elemen web dan memperoleh flag yang dimaksud.
 
-Flag: dvCTF{!th4t_w4s_34sy!}
+**Flag: dvCTF{!th4t_w4s_34sy!}**
 
 ## Forensics
 
