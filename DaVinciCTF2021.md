@@ -26,7 +26,7 @@ http://challs.dvc.tf:1337/members
 #### Penyelesaian
 Jadi untuk menyelesaikan challenge ini diharuskan menyelesaikan challenge Web: Authentication terlebih dahulu, yang kemudian akan diberikan izin untuk mengakses layanan web http://challs.dvc.tf:1337/members. 
 Saat dilihat pada website nya, terdapat page berisi table yang mengandung informasi tentang anggota di sebelah kanan dan formulir yang memungkinkan untuk mencari anggota di sebelah kiri. Dengan menganalisis kode sumber halaman, saya melihat bahwa form tersebut menggunakan metode GET untuk mengirimkan parameter pencarian, sehingga semua teks yang ditulis akan dikodekan ke dalam url. Setelah server menerima data yang saya kirim, server tersebut akan mengembalikan informasi tentang anggota. Jadi sepertinya ada Database MySQL yang mendukung aplikasi tersebut, sehingga saya memasukkan beberapa kode berbahaya ke dalam text field yang ada:
-```SQL
+```
 Leonard" OR 1=1; --
 ```
 
