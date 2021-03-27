@@ -70,8 +70,14 @@ dan kemudian aplikasi akan mencetak flag nya.
 ### Deskripsi Soal
 
 Just read!!
+
 <br>
 <img height="300" src="https://github.com/HeavenPutra208/Write-Up-CTF/blob/main/flag.png" />
 <br>
+### Penyelesaian
+Pada challenge ini diberikan sebuah gambar bernama flag.png dengan deskripsi mengatakan "Just read!!". Di sini, saya terpikirkan bahwa ada gamabr tersembunyi di balik gambar png tersebut, dikarenakan terutama pada posisi tengah gambar terlihat pola hitam-putih yang tidak rapi. Kemudian, saya menggunakan tools image online https://29a.ch/photo-forensics, kemudian setelah saya mengubah beberapa format gambar ditemukan flag sebagai berikut:
 
+<br>
+<img height="300" src="https://github.com/HeavenPutra208/Write-Up-CTF/blob/main/read.bmp" />
+<br>
 # OSINT
