@@ -22,8 +22,7 @@ Serangan umum yang saya gunakan di sini adalah dengan metode sql injection. Saya
 Dan berhasil. Kemudian saya melakukan inspect elemen web dan memperoleh flag yang dimaksud.
 
 **Flag: dvCTF{!th4t_w4s_34sy!}**
-
-
+\n
 ### Members
 
 #### Deskripsi Soal
