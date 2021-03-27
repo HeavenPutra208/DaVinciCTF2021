@@ -74,6 +74,6 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 Just read!!
 
-![flag](flag.png)
+![flag](flag.png)<width="250">
 
 ## OSINT
