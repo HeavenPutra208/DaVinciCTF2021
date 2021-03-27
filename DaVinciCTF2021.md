@@ -22,7 +22,7 @@ Serangan umum yang saya gunakan di sini adalah dengan metode sql injection. Saya
 Dan berhasil. Kemudian saya melakukan inspect elemen web dan memperoleh flag yang dimaksud.
 
 **Flag: dvCTF{!th4t_w4s_34sy!}**
-\n
+\n\n
 ### Members
 
 #### Deskripsi Soal
@@ -72,7 +72,6 @@ dan kemudian aplikasi akan mencetak flag nya.
 #### Deskripsi Soal
 
 Just read!!
-
 <br>
 <img height="300" src="https://github.com/HeavenPutra208/Write-Up-CTF/blob/main/flag.png" />
 <br>
