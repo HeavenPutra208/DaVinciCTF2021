@@ -1,17 +1,15 @@
-# DaVinviCTF 2021
+# PWN
 
-## PWN
-
-## Web
+# Web
 
 
-### Authentication
+## Authentication
 
-#### Deskripsi Soal
+### Deskripsi Soal
 Can you find a way to authenticate as admin?
 
 http://challs.dvc.tf:1337/
-#### Penyelesaian
+### Penyelesaian
 Jadi di sini saya terpikirkan untuk bagaimana saya bisa masuk dalam autentikasi tersebut sebagai admin, di mana tidak diketahui password, saya harus mencoba me-bypass beberapa metode autentikasi.
 Serangan umum yang saya gunakan di sini adalah dengan metode sql injection. Saya mencoba dengan menggunakan:
 
@@ -23,14 +21,14 @@ Dan berhasil. Kemudian saya melakukan inspect elemen web dan memperoleh flag yan
 
 **Flag: dvCTF{!th4t_w4s_34sy!}**
 
-### Members
+## Members
 
-#### Deskripsi Soal
+### Deskripsi Soal
 Can you get more information about the members?
 
 http://challs.dvc.tf:1337/members
 
-#### Penyelesaian
+### Penyelesaian
 Jadi untuk menyelesaikan challenge ini diharuskan menyelesaikan challenge Web: Authentication terlebih dahulu, yang kemudian akan diberikan izin untuk mengakses layanan web http://challs.dvc.tf:1337/members. 
 
 Saat dilihat pada website nya, terdapat page berisi table yang mengandung informasi tentang anggota di sebelah kanan dan formulir yang memungkinkan untuk mencari anggota di sebelah kiri. Dengan menganalisis kode sumber halaman, saya melihat bahwa form tersebut menggunakan metode ```GET``` untuk mengirimkan parameter pencarian, sehingga semua teks yang ditulis akan dikodekan ke dalam url. Setelah server menerima data yang saya kirim, server tersebut akan mengembalikan informasi tentang anggota. Jadi sepertinya ada Database MySQL yang mendukung aplikasi tersebut, sehingga saya memasukkan beberapa kode berbahaya ke dalam text field yang ada:
@@ -59,21 +57,21 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 **Flag: dvCTF{1_h0p3_u_d1dnt_us3_sqlm4p}**
 
-## Forensics
+# Forensics
 
-## Reverse
+# Reverse
 
-## Scripting
+# Scripting
 
-## Crypto
+# Crypto
 
-## Stega
-### Read
-#### Deskripsi Soal
+# Stega
+## Read
+### Deskripsi Soal
 
 Just read!!
 <br>
 <img height="300" src="https://github.com/HeavenPutra208/Write-Up-CTF/blob/main/flag.png" />
 <br>
 
-## OSINT
+# OSINT
