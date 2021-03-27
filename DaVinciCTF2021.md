@@ -85,4 +85,15 @@ Pada challenge ini diberikan sebuah gambar bernama flag.png dengan deskripsi men
 <br>
 
 **Flag: dvCTF{th4t5_4_l0t_0f_n0153}**
+## Pidieff
+### Deskripsi Soal
+
+(Hanya menampilkan file format .pdf yang bisa didownload)
+
+### Penyelesaian
+
+Pada pdf tersebut, tidak ada yang spesial pada isi dari pdf nya dan bersifat mengecoh. Rahasia sebenarnya adalah terletak di luar dari pdf tersebut, di mana terletak pada attachments nya. Apabila dibuka, maka akan ditemukan file bernama flag.txt.
+
+**Flag: dvCTF{look_at_the_files}**
+
 # OSINT
