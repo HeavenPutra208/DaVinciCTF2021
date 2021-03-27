@@ -27,7 +27,7 @@ function testSecret() {
 }
 ```
 
-Sehingga ditemukan flag nya adalah sebagai berikut:
+Setelah title didecode, maka ditemukan flag nya adalah sebagai berikut:
 
 **Flag: dvCTF{1t_is_n0t_4_secr3t_4nym0r3}**
 
@@ -84,6 +84,19 @@ Leonard" UNION (SELECT flag,2,3 FROM supa_secret_table); --
 dan kemudian aplikasi akan mencetak flag nya.
 
 **Flag: dvCTF{1_h0p3_u_d1dnt_us3_sqlm4p}**
+
+## High security
+### Deskripsi Soal
+
+You can now see who tried to connect to your account.
+
+What could go wrong? http://challs.dvc.tf:65535/
+
+### Penyelesaian
+
+Ketika mengetahui bahwa IP address dari web bersangkutan adalah IP: 43.21.178.10, saya menggunakan XMLHttpRequest untuk melakukan request admin dan sehingga diperoleh flag nya pada Raw Content.
+
+**Flag: dvCTF{xss_l0ve<3}**
 
 # Stega
 ## Read
