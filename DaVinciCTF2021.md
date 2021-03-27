@@ -74,6 +74,6 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 Just read!!
 
-![flag](http://url/to/flag.png)
+![flag](flag.png)
 
 ## OSINT
