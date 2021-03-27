@@ -74,6 +74,8 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 Just read!!
 
+<br>
 <img height="300"> src="https://github.com/HeavenPutra208/Write-Up-CTF/blob/main/flag.png" />
+<br>
 
 ## OSINT
