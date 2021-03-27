@@ -74,6 +74,6 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 Just read!!
 
-![flag.png](C:\Users\hp\Downloads\flag.png)
+![flag](http://url/to/flag.png)
 
 ## OSINT
