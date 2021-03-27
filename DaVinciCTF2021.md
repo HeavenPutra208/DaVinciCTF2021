@@ -25,6 +25,8 @@ Dan berhasil. Kemudian saya melakukan inspect elemen web dan memperoleh flag yan
 
 
 ### Members
+
+#### Deskripsi Soal
 Can you get more information about the members?
 
 http://challs.dvc.tf:1337/members
@@ -67,5 +69,10 @@ dan kemudian aplikasi akan mencetak flag nya.
 ## Crypto
 
 ## Stega
+### Read
+#### Deskripsi Soal
+
+Just read!!
+![flag.png](C:\Users\hp\Downloads\flaf.png)
 
 ## OSINT
