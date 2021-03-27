@@ -1,5 +1,36 @@
 # Web
 
+## Obfuscation
+### Deskripsi Soal
+
+My password is my secret. You will never find it...
+
+http://challs.dvc.tf:5555/
+
+To validate this chall, please enter the secret code as the flag.
+
+### Penyelesaian Soal
+Setelah masuk ke dalam link yang diberikan, maka ditemukan bahwa terdapat sebuah form input untuk mensubmit sesuatu. Kemudian, saya melakukan inspect elemen pada webpage tersebut. Salah satu cuplikan yang menarik adalah pada fungsi '''testsecret''':
+
+```java
+function testSecret() {
+  /** @type {function(number, ?): ?} */
+  var getHistoryTitle = _0x5ae8;
+  var title = getHistoryTitle(386);
+  var vlyr = document[getHistoryTitle(388)](getHistoryTitle(390))[getHistoryTitle(380)];
+  if (vlyr == unescape(title)) {
+    document[getHistoryTitle(388)](getHistoryTitle(373))[getHistoryTitle(377)] = getHistoryTitle(378);
+  } else {
+    /** @type {string} */
+    document[getHistoryTitle(388)](getHistoryTitle(373))[getHistoryTitle(377)] = "HEHE my secret is well kept !";
+  }
+}
+'''
+
+Sehingga ditemukan flag nya adalah sebagai berikut:
+
+**Flag: dvCTF{1t_is_n0t_4_secr3t_4nym0r3}**
+
 ## Authentication
 
 ### Deskripsi Soal
