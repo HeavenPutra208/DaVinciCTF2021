@@ -25,7 +25,7 @@ function testSecret() {
     document[getHistoryTitle(388)](getHistoryTitle(373))[getHistoryTitle(377)] = "HEHE my secret is well kept !";
   }
 }
-'''
+```
 
 Sehingga ditemukan flag nya adalah sebagai berikut:
 
