@@ -73,6 +73,7 @@ dan kemudian aplikasi akan mencetak flag nya.
 #### Deskripsi Soal
 
 Just read!!
-![flag.png](C:\Users\hp\Downloads\flaf.png)
+
+![flag.png](C:\Users\hp\Downloads\flag.png)
 
 ## OSINT
