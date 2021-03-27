@@ -1,7 +1,4 @@
-# PWN
-
 # Web
-
 
 ## Authentication
 
@@ -57,14 +54,6 @@ dan kemudian aplikasi akan mencetak flag nya.
 
 **Flag: dvCTF{1_h0p3_u_d1dnt_us3_sqlm4p}**
 
-# Forensics
-
-# Reverse
-
-# Scripting
-
-# Crypto
-
 # Stega
 ## Read
 ### Deskripsi Soal
@@ -95,5 +84,3 @@ Pada challenge ini diberikan sebuah gambar bernama flag.png dengan deskripsi men
 Pada pdf tersebut, tidak ada yang spesial pada isi dari pdf nya dan bersifat mengecoh. Rahasia sebenarnya adalah terletak di luar dari pdf tersebut, di mana terletak pada attachments nya. Apabila dibuka, maka akan ditemukan file bernama flag.txt.
 
 **Flag: dvCTF{look_at_the_files}**
-
-# OSINT
